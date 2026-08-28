@@ -30,10 +30,10 @@ flowchart LR
     DB[("In-memory database<br/>schema generated, seeded at boot")]
     K["RSA key pair<br/>loaded from the classpath"]
 
-    R -- "JSON + Bearer token" --> F
+    R -->|"JSON + Bearer token"| F
     P --> DB
     K --> F
-    DB -. "web console, permitted<br/>without authentication" .-> browser
+    DB -.->|"web console, permitted<br/>without authentication"| browser
 
     style LS fill:#f7e2e2,stroke:#b04
     style K fill:#f7e2e2,stroke:#b04
