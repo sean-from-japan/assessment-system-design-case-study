@@ -134,6 +134,6 @@ the only thing standing between a user and an action.
 Five components — including a sign-up form and a guest-only route wrapper —
 are present in the source tree but imported by nothing. They are unfinished
 work rather than dead code, and one of them corresponds to
-[the most serious finding](05-security-review.md#f1-anyone-can-create-an-account-and-choose-its-role) in
+[the most serious finding](05-security-review.md#f1--anyone-can-create-an-account-and-choose-its-role) in
 the review: the sign-up endpoint is fully implemented on the server and simply
 never wired into the interface.
