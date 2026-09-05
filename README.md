@@ -1,5 +1,7 @@
 # assessment-system-design-case-study
 
+**English** | [日本語概要](README.ja.md)
+
 A retrospective analysis of a multi-role assessment workflow system: what it
 was meant to do, how it was built, where its security model fails, and what I
 would build instead.
