@@ -4,8 +4,10 @@ A retrospective analysis of a multi-role assessment workflow system: what it
 was meant to do, how it was built, where its security model fails, and what I
 would build instead.
 
-> **Attribution.** The original application was developed by a university student team. This repository contains my independent
-> retrospective analysis and does not claim sole authorship of the
+> **Attribution.** The original application was developed by a student team as
+> university coursework. The university and the module are left out on purpose;
+> ask me directly if you need them to verify this. This repository contains my
+> independent retrospective analysis and does not claim sole authorship of the
 > implementation. **No team source code is included here** — not copied, not
 > edited, not paraphrased. Every diagram, table and line of code in this
 > repository is my own work.
